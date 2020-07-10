@@ -195,6 +195,15 @@ ul li {
   width: 300px;
 }
 
+/* button home */
+
+.btnn{text-align: center;margin-top: 44px;}
+
+.btnn button{background-color: #00aeef;border: none;transition: all .3s ease;border-radius: 5px;}
+
+.btnn button:hover{background-color: #059FD9;border: none; }
+
+
 /* .................................. */
 @media only screen and (max-width: 576px) {
   body {
@@ -335,4 +344,10 @@ ul li {
     min-height: 70vh !important;
     margin-top: 10% !important;
   }
+
+/* buttom */
+
+.btnn{text-align: center;margin-top: 0;}
+
+
 }
